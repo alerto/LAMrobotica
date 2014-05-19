@@ -1,7 +1,7 @@
 {
 	"header": {
 		"menu": {
-			"b1": "Inicio",
+			"b0": "Inicio",
 			"b1": "Empresa",
 			"b2": "Servicios",
 			"b3": "Sectores",
@@ -13,9 +13,9 @@
 		"s1": {
 			"h": "EMPRESA",
 			"p1": "LAM robotica",
-			"p2": "Quienes somos",
+			"p2": "Quiénes somos",
 			"p3": "Qué hacemos",
-			"p4": "Trabaja con nosaotros",
+			"p4": "Trabaja con nosotros",
 			"p5": "..."
 		},
 		"s2": {
@@ -30,14 +30,14 @@
 			"h": "SECTORES",
 			"p1": "Automoción",
 			"p2": "Metalúrgia",
-			"p3": "...",
-			"p4": "...",
+			"p3": "Farmacéutico",
+			"p4": "Alimentación",
 			"p5": "..."
 		},
 		"s4": {
 			"h": "CONTACTO",
 			"p1": "Contáctenos",
-			"p2": "Dónde estamos",
+			"p2": "Dónde estemos",
 			"p3": "Localización",
 			"p4": "Redes sociales",
 			"p5": "..."
@@ -45,9 +45,9 @@
 	},
 	"advice": {
 			"link": "Información legal",
-			"legalH": "Aviso legal",
+			"legalH": "Aviso Legal",
 			"legal": "",
 			"privacyH": "Política de privacidad",		
-			"privacy": "",
+			"privacy": ""
 	}
 }

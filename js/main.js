@@ -7,12 +7,13 @@ $(document).on("ready", function() {
 
 function setLanguage() {
 	sLang = $(this).find("option:selected").html().substr(0, 2).toLowerCase();
+	alert(sLang);
 	$("[data-localize]").localize("js/vendor/locales/header", {
 		language : sLang
 	});
 }
 
-function setURL() {
+/*function setURL() {
 	var resource = $(this).attr("href");
 	$.ajax({
 		type : "GET",
@@ -25,4 +26,4 @@ function setURL() {
 		}
 	});
 	return false;
-}
+}*/
