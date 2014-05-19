@@ -1,0 +1,53 @@
+{
+	"header": {
+		"menu": {
+			"b1": "Inicio",
+			"b1": "Empresa",
+			"b2": "Servicios",
+			"b3": "Sectores",
+			"b4": "Contacto"
+		}
+	},
+
+	"home": {
+		"s1": {
+			"h": "EMPRESA",
+			"p1": "LAM robotica",
+			"p2": "Quienes somos",
+			"p3": "Qué hacemos",
+			"p4": "Trabaja con nosaotros",
+			"p5": "..."
+		},
+		"s2": {
+			"h": "SERVICIOS",
+			"p1": "Robótica",
+			"p2": "Automatización",
+			"p3": "Comunicación",
+			"p4": "Iluminación",
+			"p5": "..."
+		},
+		"s3": {
+			"h": "SECTORES",
+			"p1": "Automoción",
+			"p2": "Metalúrgia",
+			"p3": "...",
+			"p4": "...",
+			"p5": "..."
+		},
+		"s4": {
+			"h": "CONTACTO",
+			"p1": "Contáctenos",
+			"p2": "Dónde estamos",
+			"p3": "Localización",
+			"p4": "Redes sociales",
+			"p5": "..."
+		}
+	},
+	"advice": {
+			"link": "Información legal",
+			"legalH": "Aviso legal",
+			"legal": "",
+			"privacyH": "Política de privacidad",		
+			"privacy": "",
+	}
+}

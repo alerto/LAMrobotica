@@ -1,0 +1,54 @@
+{
+	"header": {
+		"menu": {
+			"b0": "Home",
+			"b1": "Company",
+			"b2": "Services",
+			"b3": "Areas",
+			"b4": "Contact"
+		}
+	},
+
+	"home": {
+		"s1": {
+			"h": "COMPANY",
+			"p1": "LAM robotica",
+			"p2": "About us",
+			"p3": "What we do",
+			"p4": "Work with us",
+			"p5": "..."
+		},
+		"s2": {
+			"h": "SERVICES",
+			"p1": "Robotics",
+			"p2": "Automation",
+			"p3": "Communication",
+			"p4": "Lighting",
+			"p5": "..."
+		},
+		"s3": {
+			"h": "AREAS",
+			"p1": "Automotive",
+			"p2": "Metallurgy",
+			"p3": "Pharmacist",
+			"p4": "Alimentation",
+			"p5": "..."
+		},
+		"s4": {
+			"h": "CONTACT",
+			"p1": "Contact us",
+			"p2": "Where we are",
+			"p3": "Location",
+			"p4": "Social networks",
+			"p5": "..."
+		}
+	},
+	
+	"advice": {
+			"link": "Legal information",
+			"legalH": "Legal Notice",
+			"legal": "",
+			"privacyH": "Privacy policy",
+			"privacy": ""		
+	}
+}
