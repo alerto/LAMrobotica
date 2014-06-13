@@ -39,7 +39,7 @@
 		<![endif]-->
 
 		<!-- Add your site or application content here -->
-		<div data-role="page">
+		<div data-role="page" data-theme = "f">
 			<header class=" col-xs-12 col-sm-12 col-md-12 col-lg-12">
 				<div data-role="header" class="ui-header">
 					<div class="hidden-xs col-sm-3 col-md-3 ">
@@ -51,18 +51,18 @@
 						<h1><span id="title">LAM</span><span id="subtitle">robotica</span></h1>
 						<div id="video" class="hidden-xs col-md-12 col-lg-12">
 
-							<div data-role="popup" id="alignment-example" class="ui-content">
-								<form data-role="fieldset">
-									<div class="ui-field-contain">
-										<label for="xalign">X Alignment</label>
-										<input type="range" id="xalign" name="xalign" value="0.5" min="-1" max="2" step="0.5">
-									</div>
-									<div class="ui-field-contain">
-										<label for="yalign">Y Alignment</label>
-										<input type="range" id="yalign" name="yalign" value="0.5" min="-1" max="2" step="0.5">
-									</div>
-								</form>
+							<!--div data-role="popup" id="alignment-example" class="ui-content">
+							<form data-role="fieldset">
+							<div class="ui-field-contain">
+							<label for="xalign">X Alignment</label>
+							<input type="range" id="xalign" name="xalign" value="0.5" min="-1" max="2" step="0.5">
 							</div>
+							<div class="ui-field-contain">
+							<label for="yalign">Y Alignment</label>
+							<input type="range" id="yalign" name="yalign" value="0.5" min="-1" max="2" step="0.5">
+							</div>
+							</form>
+							</div-->
 
 							<!--iframe class="youtube-player" type="text/html" width="600" height="350" src="//www.youtube.com/embed/B2wpZQRldI4" frameborder="0"></iframe-->
 						</div>
@@ -79,12 +79,12 @@
 				</div>
 			</header>
 
-			<div role="main" class="ui-content" >
+			<div role="main" class="ui-content" data-theme="f">
 
 				<section class="col-xs-12 col-sm-12 col-md-10 col-lg-10  col-md-offset-1 col-lg-offset-1">
 					<article class="col-md-6 col-lg-6">
 						<a href="empresa" data-theme="b" data-role="button" data-transition="slide" title="EMPRESA">
-						<div class="ui-body-f">
+						<div class="ui-bar-b">
 							<h2 data-localize="home.s1.h">EMPRESA</h2>
 							<div class="caption">
 								<img src="img/company.svg"/>
@@ -98,16 +98,16 @@
 					</article>
 					<article class="col-md-6 col-lg-6">
 						<a href="servicios.html" data-theme="d" data-role="button" data-transition="slide">
-						<div class="ui-body-g">
+						<div class="ui-body-d">
 							<h2 data-localize="home.s2.h" class="greenH">SERVICIOS</h2>
 							<div class="caption">
 								<img src="img/services.svg"/>
 								<hr />
-							</div>
 							<h3 data-localize="home.s2.p1"> Robótica</h3>
 							<h3 data-localize="home.s2.p2"> Automatización</h3>
 							<h3 data-localize="home.s2.p3"> Comunicación</h3>
 							<h3 data-localize="home.s2.p4"> Iluminación</h3>
+							</div>
 						</div> </a>
 					</article>
 				</section>
@@ -115,7 +115,7 @@
 				<section class="col-xs-12 col-sm-12 col-md-10 col-lg-10  col-md-offset-1 col-lg-offset-1">
 					<article class="col-md-6 col-lg-6">
 						<a href="sectores.html" data-theme="c" data-role="button" data-transition="slide">
-						<div class="ui-body-c">
+						<div class="ui-bar-c">
 							<h2 data-localize="home.s3.h" class="blueH">SECTORES</h2>
 							<div class="caption">
 								<img src="img/areas.svg"/>
