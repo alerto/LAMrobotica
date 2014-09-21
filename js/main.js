@@ -1,8 +1,14 @@
 var sLang, sURL;
 
-$(document).on("ready", function() {	
-	$("#language").change(setLanguage);
-	//loadPage("homeB.html");
+$(document).on("ready", function() {	    
+//    var vector = {
+//        first: "this is the first",
+//        second: "this is the second"
+//    };
+//    var chars = object.keys(vector);
+//    alert(chars[1]);
+    
+        $("#language").change(setLanguage);
 }); 
 
 function setLanguage() {

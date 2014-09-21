@@ -23,6 +23,9 @@
 	height: 20%;
 	opacity: 0.9;
 }
+nav{
+    /*display: none !important;*/
+}
 
 .youtube-player{
 	display: none !important;

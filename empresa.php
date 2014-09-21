@@ -36,13 +36,13 @@
     <body>
         <div data-role="page" data-theme = "f">
             <div data-role="header" class="ui-header">                
-                <?php include './resources/header.html'; ?>
+                <?php include './header.html'; ?>
             </div>
             <div role="main" class="ui-content" data-theme="f">                
-                <?php include './resources/home.html'; ?>
+                <?php include './home.html'; ?>
             </div>
             <div data-role="footer" class="ui-content" data-theme="a">
-                <?php include './resources/footer.html'; ?>                
+                <?php include './footer.html'; ?>                
             </div>
         </div>
     </body>

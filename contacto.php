@@ -39,11 +39,11 @@
                 <?php include './resources/header.html'; ?>
             </div>
             <div role="main" class="ui-content" data-theme="f">                
-                <?php include './resources/home.html'; ?>
+                <?php include './resources/contact.html'; ?>
             </div>
             <div data-role="footer" class="ui-content" data-theme="a">
-                <?php include './resources/footer.html'; ?>                
+                <?php include 'resources/footer.html'; ?>                
             </div>
-        </div>
+        </div>        
     </body>
 </html>

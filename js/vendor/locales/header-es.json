@@ -1,53 +1,63 @@
 {
-	"header": {
-		"menu": {
-			"b0": "Inicio",
-			"b1": "Empresa",
-			"b2": "Servicios",
-			"b3": "Sectores",
-			"b4": "Contacto"
-		}
-	},
+    "header": {
+        "menu": {
+            "b0": "Inicio",
+            "b1": "Empresa",
+            "b2": "Servicios",
+            "b3": "Sectores",
+            "b4": "Contacto"
+        }
+    },
+    "home": {
+        "s1": {
+            "h": "EMPRESA",
+            "p1": "LAM robotica",
+            "p2": "Quiénes somos",
+            "p3": "Qué hacemos",
+            "p4": "Trabaja con nosotros",
+            "p5": "..."
+        },
+        "s2": {
+            "h": "SERVICIOS",
+            "p1": "Robótica",
+            "p2": "Automatización",
+            "p3": "Comunicación",
+            "p4": "Iluminación",
+            "p5": "..."
+        },
+        "s3": {
+            "h": "SECTORES",
+            "p1": "Automoción",
+            "p2": "Metalúrgia",
+            "p3": "Farmacéutico",
+            "p4": "Alimentación",
+            "p5": "..."
+        },
+        "s4": {
+            "h": "CONTACTO",
+            "p1": "Contáctenos",
+            "p2": "Dónde estemos",
+            "p3": "Localización",
+            "p4": "Redes sociales",
+            "p5": "..."
+        }
+    },
+    "footer": {
+        "linkLI": "Información Legal",
+        "legalH": "Información Legal",
+        "legalT": "",
+        "privacyH": "Política de privacidad",
+        "privacyT": "",
+        "closeB": "Cerrar"
+    },
+    "company": {
+    },
+    "services": {
+    },
+    "areas": {
+    },
+    "contact": {
+        "header": "Contacto"
+    }
 
-	"home": {
-		"s1": {
-			"h": "EMPRESA",
-			"p1": "LAM robotica",
-			"p2": "Quiénes somos",
-			"p3": "Qué hacemos",
-			"p4": "Trabaja con nosotros",
-			"p5": "..."
-		},
-		"s2": {
-			"h": "SERVICIOS",
-			"p1": "Robótica",
-			"p2": "Automatización",
-			"p3": "Comunicación",
-			"p4": "Iluminación",
-			"p5": "..."
-		},
-		"s3": {
-			"h": "SECTORES",
-			"p1": "Automoción",
-			"p2": "Metalúrgia",
-			"p3": "Farmacéutico",
-			"p4": "Alimentación",
-			"p5": "..."
-		},
-		"s4": {
-			"h": "CONTACTO",
-			"p1": "Contáctenos",
-			"p2": "Dónde estemos",
-			"p3": "Localización",
-			"p4": "Redes sociales",
-			"p5": "..."
-		}
-	},
-	"advice": {
-			"link": "Información legal",
-			"legalH": "Aviso Legal",
-			"legal": "",
-			"privacyH": "Política de privacidad",		
-			"privacy": ""
-	}
 }

@@ -1,53 +1,63 @@
 {
-	"header": {
-		"menu": {
-			"b0": "Inici",
-			"b1": "Empresa",
-			"b2": "Serveis",
-			"b3": "Sectors",
-			"b4": "Contacte"
-		}
-	},
+    "header": {
+        "menu": {
+            "b0": "Inici",
+            "b1": "Empresa",
+            "b2": "Serveis",
+            "b3": "Sectors",
+            "b4": "Contacte"
+        }
+    },
+    "home": {
+        "s1": {
+            "h": "EMPRESA",
+            "p1": "LAM robotica",
+            "p2": "Qui som",
+            "p3": "Què fem",
+            "p4": "Treballa amb nosaltres",
+            "p5": "..."
+        },
+        "s2": {
+            "h": "SERVEIS",
+            "p1": "Robòtica",
+            "p2": "Automatització",
+            "p3": "Comunicació",
+            "p4": "Il·luminació",
+            "p5": "..."
+        },
+        "s3": {
+            "h": "SECTORS",
+            "p1": "Automoció",
+            "p2": "Metal·lúrgia",
+            "p3": "Farmacèutic",
+            "p4": "Alimentació",
+            "p5": "..."
+        },
+        "s4": {
+            "h": "CONTACTE",
+            "p1": "Contacti'ns",
+            "p2": "On estem",
+            "p3": "Localització",
+            "p4": "Xarxes socials",
+            "p5": "..."
+        }
+    },
+    "footer": {
+        "linkLI": "Informació Legal",
+        "legalH": "Informació Legal",
+        "legalT": "",
+        "privacyH": "Política de privacitat",
+        "privacyT": "",
+        "closeB": "Tancar"
+    },
+    "company": {
+    },
+    "services": {
+    },
+    "areas": {
+    },
+    "contact": {
+        "header": "Contacte"
+    }
 
-	"home": {
-		"s1": {
-			"h": "EMPRESA",
-			"p1": "LAM robotica",
-			"p2": "Qui som",
-			"p3": "Què fem",
-			"p4": "Treballa amb nosaltres",
-			"p5": "..."
-		},
-		"s2": {
-			"h": "SERVEIS",
-			"p1": "Robòtica",
-			"p2": "Automatització",
-			"p3": "Comunicació",
-			"p4": "Il·luminació",
-			"p5": "..."
-		},
-		"s3": {
-			"h": "SECTORS",
-			"p1": "Automoció",
-			"p2": "Metal·lúrgia",
-			"p3": "Farmacèutic",
-			"p4": "Alimentació",
-			"p5": "..."
-		},
-		"s4": {
-			"h": "CONTACTE",
-			"p1": "Contacti'ns",
-			"p2": "On estem",
-			"p3": "Localització",
-			"p4": "Xarxes socials",
-			"p5": "..."
-		}
-	},
-	"advice": {
-			"link": "Informació legal",
-			"legalH": "Avis Legal",
-			"legal": "",
-			"privacyH": "Política de privacitat",		
-			"privacy": ""
-	}
 }
