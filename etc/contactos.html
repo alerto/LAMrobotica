@@ -7,11 +7,12 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <!--JS plugins-->        
-        <script type = "text/javascript" src = "js/vendor/jquery-1.11.1.js"></script>
+        <!--JS plugins-->
+        <script type="text/javascript" src="js/vendor/jquery-1.11.0.min.js"></script>        
         <script type="text/javascript" src="js/vendor/jquery.mobile-1.4.2/jquery.mobile-1.4.2.js"></script>
         <script src="js/vendor/modernizr-2.8.0.min.js"></script>
-        <script type="text/javascript" src="js/vendor/jquery.localize.js"></script>        
+        <!--<script type="text/javascript" src="js/vendor/jquery-1.11.0.min.js"></script>-->
+        <script type="text/javascript" src="js/vendor/jquery.localize.js"></script>
         <script src="js/main.js"></script>
         <!--/JS plugins-->
 
@@ -36,22 +37,29 @@
         <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
         <!--Latest compiled and minified JavaScript--> 
         <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
     </head>    
     <body>
+        <div id="toc">
+            
+        </div>
         <div data-role="page" data-theme = "a">
-
-            <div data-role="header" class="ui-content" data-theme="a">
-                <header  class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <?php include ('./resources/header.html'); ?>
-                </header>
+            <div id="capcalera" data-role="header" class="ui-content" data-theme="a">                
             </div>
             <div role="main" class="ui-content" data-theme="a">                
-                <?php include('./resources/home.html'); ?>
             </div>
             <div data-role="footer" class="ui-content" data-theme="a">
-                <?php include('./resources/footer.html'); ?>                
             </div>
         </div>    
     </body>
+        <script>
+            $.ajax({
+                url: "./resources/header.html",
+                dataType: "html",
+                success: function(data) {
+                    $("#capcalera").html(data);
+                }
+            })
 
+        </script>
 </html>

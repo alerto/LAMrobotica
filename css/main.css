@@ -9,6 +9,8 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
+
+
 @font-face {
     font-family: 'wolf' !important;
     src: url(../fonts/wolfsansregular.otf) format("opentype") !important;
@@ -19,19 +21,18 @@ html {
     font-size: 1em;
     line-height: 1.4;
     text-align: center;
-    font-family: "wolf" !important;
-    
 }
 
-.ui-page{
-    background-color: #b3d4fc;
+.ui-page{    
     background-image: url("../img/cardboard-flat.png");
+    //  background-color: #b3d4fc;
 }
 
 #title {
-    color: #BE4C39 !important;
+    color: #BE4C39;
     font-size: 225% !important;
     letter-spacing: 0.1em !important;
+    font-family: "wolf" !important;
 }
 
 #subtitle {
@@ -46,7 +47,47 @@ html {
     height: 100%;
 }
 
+* {    
+    font-weight: lighter;
+    text-align: center;
+    color: #FFFFFF;
+}
 
+/*
+nav a{
+    display: inline !important;
+}
+
+
+
+
+//repetit
+
+@font-face {
+    font-family: 'wolf';        
+    src: url(../fonts/wolfsansregular.otf) format("opentype");    
+}
+nav{
+    position: absolute;
+    top: 50px;
+    z-index: 1;
+}
+
+a: hover{
+    color: #81c587 !important;
+}
+
+.caption  {	
+    letter-spacing: 0.1em !important;
+    color: #fff;
+}
+
+.caption img {
+    z-index: 2;
+    width: 20%;
+    height: 20%;
+    opacity: 0.9;
+}*/
 
 /* 
  * Remove text-shadow in selection highlight: h5bp.com/i
@@ -123,26 +164,7 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
-@font-face {
-    font-family: 'wolf';
-    src: url(../fonts/wolfsansregular.otf) format("opentype");
-}
-* {
-    font-family: "wolf" !important;
-    text-align: center;
-}
 
-.caption  {	
-    letter-spacing: 0.1em !important;
-    color: #FFFFFF;
-}
-
-.caption img {
-    /*z-index: 2;*/
-    width: 20%;
-    height: 20%;
-    opacity: 0.9;
-}
 
 
 
@@ -237,8 +259,15 @@ textarea {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
+@media only screen and (max-width: 20em) {
     /* Style adjustments for viewports that meet the condition */
+    *, #subtitle, #title{        
+        color: yellow;
+        font-size: 10% ;
+    } 
+/*     #subtitle, #title{        
+         font-size: 100%;
+     }*/
 }
 
 @media print,
@@ -314,4 +343,82 @@ textarea {
     h3 {
         page-break-after: avoid;
     }
+}
+
+.ui-bar-a ~ a{
+
+    width: 200px; 
+}
+
+
+/*Style colors*/
+
+.black{
+    color: #00000!important;	    
+}
+
+.white{
+    color: #FFFFFF!important;	
+}
+
+.grey{
+    color: #929292 important;	
+}
+.greyDark{
+    color: #5c5c5c !important;
+}
+.greyLight{
+    color: #b8b8b8 !important;
+}
+
+.red{
+    color: #BE4C39 !important;
+}
+
+.redLight{
+    color:#ce6b5a !important;
+}
+.redDark{
+    color: #823427 !important;
+}
+
+.blue{
+    color: #4472B9!important;
+}
+.blueLight{
+    color: #7f9fd2 !important;
+}
+.blueDark{
+    color: #305082!important;
+}
+
+.aqua{
+    color: #2790B0 !important;    
+}
+.aquaDark{
+    color: #0E4E5A !important;    
+}
+.aquaLight{
+    color: #5fdaf1 !important;    
+}
+/*21494A - 245269*/
+
+.green{
+    color: #4CA454 !important;
+}
+.greenLight{
+    color: #81c587 !important;	
+}
+.greenDark{
+    color: #1F4422 !important;
+}
+
+.orange{
+    color: #C9761C !important;
+}
+.orangeLight{
+    color: #e79f50 !important;	
+}
+.OrangeDark{
+    color: #824c12 !important;
 }

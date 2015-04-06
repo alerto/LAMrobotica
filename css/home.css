@@ -1,33 +1,20 @@
 
-@media (max-width: 20em) {	
-	h3 {
-		font-size: 1em !important;
-		color: #00D112 !important;
-	}
-	h1 > #title{		
-		font-size: 1.5em !important;
-	}
-	h1 > #subtitle{		
-		font-size: 1em !important;
-	}	
-}
-
 .caption  {	
 	letter-spacing: 0.1em !important;
-	color: #000000 !important;	
+        /*color: #ffffff !important;*/	
 }
 
 .caption img {
-	/*z-index: 2;*/
 	width: 20%;
 	height: 20%;
 	opacity: 0.9;
-}
-nav{
-    /*display: none !important;*/
 }
 
 .youtube-player{
 	display: none !important;
 }
 
+/*nav a{
+    display: none !important;
+    }
+    */

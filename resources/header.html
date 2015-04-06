@@ -1,8 +1,10 @@
+
 <header class=" col-xs-12 col-sm-12 col-md-12 col-lg-12">
 
     <!--Logo-->
     <div class="hidden-xs col-sm-3 col-md-3 col-md-3">
-        <img id="logo" src="img/logoH.png" class="img-responsive" />
+        <a href="../index.php"><img id="logo" src="img/logoH.png" class="img-responsive" /></a>
+        <!--<img id="logo" src="img/logoH.png" class="img-responsive" />-->
     </div>
     <!--Title-->
     <div class="col-xs-8 col-sm-7 col-md-6 col-lg-6">
@@ -26,11 +28,16 @@
     <!--Menu-->
     <nav id="menu">
         <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-            <a href="index.php" data-localize="header.menu.b0" > <img src="images/services.svg" /> <h5>Inicio</h5> </a>
-            <a href="servicios.php" data-localize="header.menu.b2" data-role="button">Servicios</a>
+            
+            <a href="../index.php"> <img width="20" height="20" src="img/home.svg" /> <h5 data-localize="header.menu.b0">Inicio</h5> </a>
+            <a href="../empresa.php"> <img width="20" height="20" src="img/home.svg" /> <h5 data-localize="header.menu.b1">Empresa</h5> </a>
+            <a href="../servicios.php"> <img width="20" height="20" src="img/services.svg" /> <h5 data-localize="header.menu.b2">Servicios</h5> </a>
+            <a href="../sectores.php"> <img width="20" height="20" src="img/areas.svg" /> <h5 data-localize="header.menu.b0">Inicio</h5> </a>
+            
+            <!--l-->
+            <a href="servicios.php" data-localize="header.menu.b2" data-role="button"><h5>Servicios</h5></a>
             <a href="sectores.php" data-localize="header.menu.b3" data-role="button">Sectores</a>
             <a href="contacto.php" data-localize="header.menu.b4" data-role="button">Contacto</a>
         </div>
     </nav>
 </header>
-

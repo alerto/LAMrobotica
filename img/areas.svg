@@ -13,16 +13,16 @@
    id="Capa_1"
    x="0px"
    y="0px"
-   width="33.150002"
-   height="23.209999"
-   viewBox="0 0 33.15 23.209999"
+   width="2"
+   height="2"
+   viewBox="0 0 2 2"
    enable-background="new 0 0 84.15 58.695"
    xml:space="preserve"
-   inkscape:version="0.48.4 r9939"
-   sodipodi:docname="patro.svg"><metadata
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="areas.svg"><metadata
    id="metadata17"><rdf:RDF><cc:Work
        rdf:about=""><dc:format>image/svg+xml</dc:format><dc:type
-         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title></dc:title></cc:Work></rdf:RDF></metadata><defs
+         rdf:resource="http://purl.org/dc/dcmitype/StillImage" /><dc:title /></cc:Work></rdf:RDF></metadata><defs
    id="defs15" /><sodipodi:namedview
    pagecolor="#ffffff"
    bordercolor="#666666"
@@ -37,16 +37,20 @@
    id="namedview13"
    showgrid="false"
    inkscape:zoom="21.108166"
-   inkscape:cx="11.610151"
-   inkscape:cy="16.592224"
+   inkscape:cx="6.9140703"
+   inkscape:cy="-4.6993923"
    inkscape:window-x="-4"
    inkscape:window-y="-4"
    inkscape:window-maximized="1"
-   inkscape:current-layer="Capa_1" />
+   inkscape:current-layer="Capa_1"
+   fit-margin-top="0"
+   fit-margin-left="0"
+   fit-margin-right="0"
+   fit-margin-bottom="0" />
 
 <g
    id="g3"
-   transform="matrix(1.0159898,0,0,1.0583608,4.69608,0.01646063)"><path
+   transform="scale(0.08582586,0.09097112)"><path
      d="m 17.032,9.126 v 2.076 H 14.741 V 9.126 H 11.885 V 4.767 h 2.856 V 0 H 8.47 v 4.767 h 2.661 V 9.126 H 8.47 v 2.076 H 6.273 V 9.126 H 0 v 4.769 H 6.272 V 11.956 H 8.47 v 1.939 h 2.661 v 3.323 H 8.47 v 4.767 h 6.271 v -4.767 h -2.856 v -3.323 h 2.856 v -1.939 h 2.291 v 1.939 h 6.271 V 9.126 H 17.032 z M 9.882,1.19 c 0.772,0 2.675,0 3.446,0 0,0.65 0,1.637 0,2.287 -0.771,0 -2.674,0 -3.446,0 0,-0.651 0,-1.637 0,-2.287 z M 4.86,12.602 c -0.771,0 -2.674,0 -3.446,0 0,-0.649 0,-1.635 0,-2.285 0.773,0 2.675,0 3.446,0 0,0.651 0,1.636 0,2.285 z m 8.468,5.806 c 0,0.65 0,1.636 0,2.285 -0.771,0 -2.674,0 -3.446,0 0,-0.649 0,-1.635 0,-2.285 0.773,0 2.675,0 3.446,0 z m 0,-5.806 c -0.771,0 -2.674,0 -3.446,0 0,-0.649 0,-1.635 0,-2.285 0.772,0 2.675,0 3.446,0 0,0.651 0,1.636 0,2.285 z m 8.563,0 c -0.773,0 -2.674,0 -3.448,0 0,-0.649 0,-1.635 0,-2.285 0.775,0 2.675,0 3.448,0 0,0.651 0,1.636 0,2.285 z"
      id="path5"
      inkscape:connector-curvature="0" /></g></svg>
