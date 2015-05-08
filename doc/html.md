@@ -1,48 +1,48 @@
-
-[HTML5 Boilerplate homepage](http://html5boilerplate.com) | [Documentation
-table of contents](TOC.md)
-
-# The HTML
-
-## The `no-js` class
-
-Allows you to more easily explicitly add custom styles when JavaScript is
-disabled (`no-js`) or enabled (`js`). More here: [Avoiding the
-FOUC](http://paulirish.com/2009/avoiding-the-fouc-v3/).
-
-## Language attribute
-
-Please consider specifying the language of your content by adding the `lang`
-attribute to `<html>` as in this example:
-
-```html
-<html class="no-js" lang="en">
-```
-
-## The order of meta tags, and `<title>`
-
-As recommended by [the HTML5
-spec](http://www.whatwg.org/specs/web-apps/current-work/complete/semantics.html#charset)
-(4.2.5.5 Specifying the document's character encoding), add your charset
-declaration early (before any ASCII art ;) to avoid a potential
-[encoding-related security
-issue](http://code.google.com/p/doctype-mirror/wiki/ArticleUtf7) in IE. It
-should come in the first [1024
-bytes](http://www.whatwg.org/specs/web-apps/current-work/multipage/semantics.html#charset).
-
-The charset should also come before the `<title>` tag, due to [potential XSS
-vectors](http://code.google.com/p/doctype-mirror/wiki/ArticleUtf7).
-
-The meta tag for compatibility mode [needs to be before all elements except
-title and meta](http://h5bp.com/f "Defining Document Compatibility - MSDN").
-
-## X-UA-Compatible
-
-This makes sure the latest version of IE is used in versions of IE that contain
-multiple rendering engines. Even if a site visitor is using IE8 or IE9, it's
-possible that they're not using the latest rendering engine their browser
-contains. To fix this, use:
-
+kljlkj lkj lkj lkj lkj lk j lj lj lk jlkj lkjlkjlkj lkj lkjlkjlk klj lkj lkjlk lkj lk 
+[HTML5 Boilerplate homepage](http://html5boilerplate.com) | [Documentationkljlkj lkj lkj lkj lkj lk j lj lj lk jlkj lkjlkjlkj lkj lkjlkjlk klj lkj lkjlk lkj lk 
+table of contents](TOC.md)kljlkj lkj lkj lkj lkj lk j lj lj lk jlkj lkjlkjlkj lkj lkjlkjlk klj lkj lkjlk lkj lk 
+kljlkj lkj lkj lkj lkj lk j lj lj lk jlkj lkjlkjlkj lkj lkjlkjlk klj lkj lkjlk lkj lk 
+# The HTMLkljlkj lkj lkj lkj lkj lk j lj lj lk jlkj lkjlkjlkj lkj lkjlkjlk klj lkj lkjlk lkj lk 
+kljlkj lkj lkj lkj lkj lk j lj lj lk jlkj lkjlkjlkj lkj lkjlkjlk klj lkj lkjlk lkj lk 
+## The `no-js` classkljlkj lkj lkj lkj lkj lk j lj lj lk jlkj lkjlkjlkj lkj lkjlkjlk klj lkj lkjlk lkj lk 
+kljlkj lkj lkj lkj lkj lk j lj lj lk jlkj lkjlkjlkj lkj lkjlkjlk klj lkj lkjlk lkj lk 
+Allows you to more easily explicitly add custom styles when JavaScript iskljlkj lkj lkj lkj lkj lk j lj lj lk jlkj lkjlkjlkj lkj lkjlkjlk klj lkj lkjlk lkj lk 
+disabled (`no-js`) or enabled (`js`). More here: [Avoiding thekljlkj lkj lkj lkj lkj lk j lj lj lk jlkj lkjlkjlkj lkj lkjlkjlk klj lkj lkjlk lkj lk 
+FOUC](http://paulirish.com/2009/avoiding-the-fouc-v3/).kljlkj lkj lkj lkj lkj lk j lj lj lk jlkj lkjlkjlkj lkj lkjlkjlk klj lkj lkjlk lkj lk 
+kljlkj lkj lkj lkj lkj lk j lj lj lk jlkj lkjlkjlkj lkj lkjlkjlk klj lkj lkjlk lkj lk 
+## Language attributekljlkj lkj lkj lkj lkj lk j lj lj lk jlkj lkjlkjlkj lkj lkjlkjlk klj lkj lkjlk lkj lk 
+kljlkj lkj lkj lkj lkj lk j lj lj lk jlkj lkjlkjlkj lkj lkjlkjlk klj lkj lkjlk lkj lk 
+Please consider specifying the language of your content by adding the `lang`kljlkj lkj lkj lkj lkj lk j lj lj lk jlkj lkjlkjlkj lkj lkjlkjlk klj lkj lkjlk lkj lk 
+attribute to `<html>` as in this example:kljlkj lkj lkj lkj lkj lk j lj lj lk jlkj lkjlkjlkj lkj lkjlkjlk klj lkj lkjlk lkj lk 
+kljlkj lkj lkj lkj lkj lk j lj lj lk jlkj lkjlkjlkj lkj lkjlkjlk klj lkj lkjlk lkj lk 
+```htmlkljlkj lkj lkj lkj lkj lk j lj lj lk jlkj lkjlkjlkj lkj lkjlkjlk klj lkj lkjlk lkj lk 
+<html class="no-js" lang="en">kljlkj lkj lkj lkj lkj lk j lj lj lk jlkj lkjlkjlkj lkj lkjlkjlk klj lkj lkjlk lkj lk 
+```kljlkj lkj lkj lkj lkj lk j lj lj lk jlkj lkjlkjlkj lkj lkjlkjlk klj lkj lkjlk lkj lk 
+kljlkj lkj lkj lkj lkj lk j lj lj lk jlkj lkjlkjlkj lkj lkjlkjlk klj lkj lkjlk lkj lk 
+## The order of meta tags, and `<title>`kljlkj lkj lkj lkj lkj lk j lj lj lk jlkj lkjlkjlkj lkj lkjlkjlk klj lkj lkjlk lkj lk 
+kljlkj lkj lkj lkj lkj lk j lj lj lk jlkj lkjlkjlkj lkj lkjlkjlk klj lkj lkjlk lkj lk 
+As recommended by [the HTML5kljlkj lkj lkj lkj lkj lk j lj lj lk jlkj lkjlkjlkj lkj lkjlkjlk klj lkj lkjlk lkj lk 
+spec](http://www.whatwg.org/specs/web-apps/current-work/complete/semantics.html#charset)kljlkj lkj lkj lkj lkj lk j lj lj lk jlkj lkjlkjlkj lkj lkjlkjlk klj lkj lkjlk lkj lk 
+(4.2.5.5 Specifying the document's character encoding), add your charsetkljlkj lkj lkj lkj lkj lk j lj lj lk jlkj lkjlkjlkj lkj lkjlkjlk klj lkj lkjlk lkj lk 
+declaration early (before any ASCII art ;) to avoid a potentialkljlkj lkj lkj lkj lkj lk j lj lj lk jlkj lkjlkjlkj lkj lkjlkjlk klj lkj lkjlk lkj lk 
+[encoding-related securitykljlkj lkj lkj lkj lkj lk j lj lj lk jlkj lkjlkjlkj lkj lkjlkjlk klj lkj lkjlk lkj lk 
+issue](http://code.google.com/p/doctype-mirror/wiki/ArticleUtf7) in IE. Itkljlkj lkj lkj lkj lkj lk j lj lj lk jlkj lkjlkjlkj lkj lkjlkjlk klj lkj lkjlk lkj lk 
+should come in the first [1024kljlkj lkj lkj lkj lkj lk j lj lj lk jlkj lkjlkjlkj lkj lkjlkjlk klj lkj lkjlk lkj lk 
+bytes](http://www.whatwg.org/specs/web-apps/current-work/multipage/semantics.html#charset).kljlkj lkj lkj lkj lkj lk j lj lj lk jlkj lkjlkjlkj lkj lkjlkjlk klj lkj lkjlk lkj lk 
+kljlkj lkj lkj lkj lkj lk j lj lj lk jlkj lkjlkjlkj lkj lkjlkjlk klj lkj lkjlk lkj lk 
+The charset should also come before the `<title>` tag, due to [potential XSSkljlkj lkj lkj lkj lkj lk j lj lj lk jlkj lkjlkjlkj lkj lkjlkjlk klj lkj lkjlk lkj lk 
+vectors](http://code.google.com/p/doctype-mirror/wiki/ArticleUtf7).kljlkj lkj lkj lkj lkj lk j lj lj lk jlkj lkjlkjlkj lkj lkjlkjlk klj lkj lkjlk lkj lk 
+kljlkj lkj lkj lkj lkj lk j lj lj lk jlkj lkjlkjlkj lkj lkjlkjlk klj lkj lkjlk lkj lk 
+The meta tag for compatibility mode [needs to be before all elements exceptkljlkj lkj lkj lkj lkj lk j lj lj lk jlkj lkjlkjlkj lkj lkjlkjlk klj lkj lkjlk lkj lk 
+title and meta](http://h5bp.com/f "Defining Document Compatibility - MSDN").kljlkj lkj lkj lkj lkj lk j lj lj lk jlkj lkjlkjlkj lkj lkjlkjlk klj lkj lkjlk lkj lk 
+kljlkj lkj lkj lkj lkj lk j lj lj lk jlkj lkjlkjlkj lkj lkjlkjlk klj lkj lkjlk lkj lk 
+## X-UA-Compatiblekljlkj lkj lkj lkj lkj lk j lj lj lk jlkj lkjlkjlkj lkj lkjlkjlk klj lkj lkjlk lkj lk 
+kljlkj lkj lkj lkj lkj lk j lj lj lk jlkj lkjlkjlkj lkj lkjlkjlk klj lkj lkjlk lkj lk 
+This makes sure the latest version of IE is used in versions of IE that containkljlkj lkj lkj lkj lkj lk j lj lj lk jlkj lkjlkjlkj lkj lkjlkjlk klj lkj lkjlk lkj lk 
+multiple rendering engines. Even if a site visitor is using IE8 or IE9, it'skljlkj lkj lkj lkj lkj lk j lj lj lk jlkj lkjlkjlkj lkj lkjlkjlk klj lkj lkjlk lkj lk 
+possible that they're not using the latest rendering engine their browserkljlkj lkj lkj lkj lkj lk j lj lj lk jlkj lkjlkjlkj lkj lkjlkjlk klj lkj lkjlk lkj lk 
+contains. To fix this, use:kljlkj lkj lkj lkj lkj lk j lj lj lk jlkj lkjlkjlkj lkj lkjlkjlk klj lkj lkjlk lkj lk 
+kljlkj lkj lkj lkj lkj lk j lj lj lk jlkj lkjlkjlkj lkj lkjlkjlk klj lkj lkjlk lkj lk 
 ```html
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 ```

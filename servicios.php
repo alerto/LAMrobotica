@@ -43,13 +43,13 @@
     <body>
         <div data-role="page" data-theme = "a">
             <div data-role="header" class="ui-content" data-theme="a">
-                <?php include './resources/header.html'; ?>
+                <?php require './html/header.html'; ?>
             </div>
             <div role="main" class="ui-content" data-theme="a">                
-                <?php include './resources/serivces.html'; ?>
+                <?php require './html/serivces.html'; ?>
             </div>
             <div data-role="footer" class="ui-content" data-theme="a">
-                <?php include './resources/footer.html'; ?>                
+                <?php require './html/footer.html'; ?>                
             </div>
         </div>    
     </body>

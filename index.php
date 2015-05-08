@@ -42,14 +42,14 @@
 
             <div data-role="header" class="ui-content" data-theme="a">
                 <header  class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <?php include ('./resources/header.html'); ?>
+                    <?php require ('./html/header.html'); ?>
                 </header>
             </div>
             <div role="main" class="ui-content" data-theme="a">                
-                <?php include('./resources/home.html'); ?>
+                <?php require('./html/home.html'); ?>
             </div>
             <div data-role="footer" class="ui-content" data-theme="a">
-                <?php include('./resources/footer.html'); ?>                
+                <?php require('./html/footer.html'); ?>                
             </div>
         </div>    
     </body>

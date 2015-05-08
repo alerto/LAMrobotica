@@ -15,12 +15,15 @@
     font-family: 'wolf' !important;
     src: url(../fonts/wolfsansregular.otf) format("opentype") !important;
 }
-
-html {
+*{
+    font-family: "Century Gothic" !important;
     color: #222;
     font-size: 1em;
-    line-height: 1.4;
-    text-align: center;
+    /*line-height: 1.4;*/
+    text-align: center;    
+}
+
+html {
 }
 
 .ui-page{    
@@ -28,18 +31,22 @@ html {
     //  background-color: #b3d4fc;
 }
 
-#title {
+.lam {
     color: #BE4C39;
     font-size: 225% !important;
     letter-spacing: 0.1em !important;
     font-family: "wolf" !important;
 }
 
-#subtitle {
+.rob {
     color: #000000;
     font-size: 125% !important;
     letter-spacing: 0em !important;
 }
+
+/*h1[title]{
+    font-family: "wolf" !important;    
+}*/
 
 #logo {
     cursor: pointer;
@@ -265,9 +272,9 @@ textarea {
         color: yellow;
         font-size: 10% ;
     } 
-/*     #subtitle, #title{        
-         font-size: 100%;
-     }*/
+    /*     #subtitle, #title{        
+             font-size: 100%;
+         }*/
 }
 
 @media print,
@@ -422,3 +429,4 @@ textarea {
 .OrangeDark{
     color: #824c12 !important;
 }
+
