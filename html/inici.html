@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>LAM robotica</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!--JS plugins-->        
+        <script type = "text/javascript" src = "js/vendor/jquery-2.1.1.js"></script>
+        <script type="text/javascript" src="js/vendor/jquery.mobile-1.4.2/jquery.mobile-1.4.2.js"></script>
+        <script src="js/vendor/modernizr-2.8.0.min.js"></script>
+        <script type="text/javascript" src="js/vendor/jquery.localize.js"></script>        
+        <script src="js/main.js"></script>
+        <!--/JS plugins-->
+
+
+        <!--Modernize & JQmobile styles-->
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="js/vendor/jquery.mobile-1.4.2/jquery.mobile-1.4.2.css" />
+        <link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />
+        <link rel="stylesheet" href="js/vendor/jquery.mobile-1.4.2/jquery.mobile.structure-1.4.2.css" />
+        <!--/Modernize & JQmobile styles-->
+
+        <!--Personalized styles & scripts-->
+        <link rel="stylesheet" href="css/themes/themes.css" />
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="stylesheet" href="css/home.css">
+
+        <script src="js/plugins.js"></script>
+
+        <!--Latest compiled and minified CSS--> 
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+        <!--Optional theme--> 
+        <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+        <!--Latest compiled and minified JavaScript--> 
+        <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <div data-role="page" data-theme = "a">
+            <!--CABECERA-->
+
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+
+    <!--Logo-->
+    <div class="hidden-xs col-sm-3 col-md-3 col-md-3">
+        <a href="index.php"><img id="logo" src="img/logoH.png" class="img-responsive" /></a>
+        <!--<img id="logo" src="img/logoH.png" class="img-responsive" />-->
+    </div>
+    <!--Title-->
+    <div class="col-xs-8 col-sm-7 col-md-6 col-lg-6">
+        <h1><span class="lam">LAM</span><span class="rob">robotica</span></h1>
+        <div id="video" class="hidden-xs col-md-12 col-lg-12">
+        </div>
+    </div>
+
+    <!--Languages-->
+        <div class="col-xs-4 col-sm-2 col-md-2 col-md-offset-1 col-lg-2">
+            <div class="ui-field-contain" id="language">
+                <select name="select-custom-2" id="select-custom-2" data-native-menu="false">
+                    <option value="1">Español</option>
+                    <option value="2">Català</option>
+                    <option value="3">English</option>
+                </select>
+            </div>
+        </div>
+</div>
+
+<!--Menu-->
+<nav id="menu" class="col-lg-6 col-md-6 col-sm-12 col-xs-12 col-lg-offset-3 col-md-offset-3 col-sm-offset-1 ">        
+
+    <a href="index.php" class="col-lg-2 col-md-2 col-sm-2 col-xs-4 col-md-offset-1" data-transition="slide" > <img width="20" height="20" src="img/home.svg" /> <h5 data-localize="header.menu.b0">Inicio</h5> </a>
+    <a href="empresa.php" class="col-lg-2 col-md-2 col-sm-2 col-xs-4 " data-transition="slide"> <img width="20" height="20" src="img/company.svg" /> <h5 data-localize="header.menu.b1">Empresa</h5> </a>
+    <a href="servicios.php" class="col-lg-2 col-md-2 col-sm-2 col-xs-4" data-transition="slide"> <img width="20" height="20" src="img/services.svg" /> <h5 data-localize="header.menu.b2">Servicios</h5> </a>
+    <a href="sectores.php" class="col-lg-2 col-md-2 col-sm-2 col-xs-4 col-sm-offset-0 col-xs-offset-2" data-transition="slide"> <img width="20" height="20" src="img/areas.svg" /> <h5 data-localize="header.menu.b3">Sectores</h5> </a>
+    <a href="contacto.php" class="col-lg-2 col-md-2 col-sm-2 col-xs-4" data-transition="slide"> <img width="20" height="20" src="img/contact.svg" /> <h5 data-localize="header.menu.b4">Contacto</h5> </a>       
+</nav>
+
+<div role="main" class="ui-content" data-theme="a">         
+<section class="col-xs-12 col-sm-12 col-md-10 col-lg-10  col-md-offset-1 col-lg-offset-1">
+    <article class="col-md-6 col-lg-6">
+        <a href="../empresa.php" data-theme="b" data-role="button" data-transition="slide" title="EMPRESA">
+            <div class="ui-bar-a">
+                <h2 data-localize="home.s1.h" class="red">EMPRESA</h2>
+                <div class="caption">
+                    <img src="img/company.svg"/>
+                    <hr />
+                    <h3 data-localize="home.s1.p1"> LAM robotica </h3>
+                    <h3 data-localize="home.s1.p2"> Quiénes somos </h3>
+                    <h3 data-localize="home.s1.p3"> Qué hacemos </h3>
+                    <h3 data-localize="home.s1.p4"> Trabaja con nosotros</h3>
+                </div>
+            </div> </a>
+    </article>
+    <article class="col-md-6 col-lg-6">
+        <a href="../servicios.php" data-theme="d" data-role="button" data-transition="slide">
+            <div class="ui-bar-a">
+                <h2 data-localize="home.s2.h" class="blue">SERVICIOS</h2>
+                <div class="caption">
+                    <img src="img/services.svg"/>
+                    <hr/>
+                    <h3 data-localize="home.s2.p1"> Robótica</h3>
+                    <h3 data-localize="home.s2.p2"> Automatización</h3>
+                    <h3 data-localize="home.s2.p3"> Comunicación</h3>
+                    <h3 data-localize="home.s2.p4"> Iluminación</h3>
+                </div>
+            </div> </a>
+    </article>
+</section>
+
+<section class="col-xs-12 col-sm-12 col-md-10 col-lg-10  col-md-offset-1 col-lg-offset-1">
+    <article class="col-md-6 col-lg-6">
+        <a href="../sectores.php" data-theme="c" data-role="button" data-transition="slide">
+            <div class="ui-bar-a">
+                <h2 data-localize="home.s3.h" class="blueH">SECTORES</h2>
+                <div class="caption">
+                    <img width="50" height="50" src="img/areas.svg"/>
+                    <hr />
+                    <h3 data-localize="home.s3.p1"> Automoción</h3>
+                    <h3 data-localize="home.s3.p2"> Metalúrgia</h3>
+                    <h3 data-localize="home.s3.p3"> Farmacéutico</h3>
+                    <h3 data-localize="home.s3.p4"> Alimentación</h3>
+                </div>
+            </div> </a>
+    </article>
+
+    <article class="col-md-6 col-lg-6">
+        <a href="../contacto.php" data-theme="e" data-role="button" data-transition="slide">
+            <div class="ui-bar-a">
+                <h2 data-localize="home.s4.h" class="yellowH">CONTACTO</h2>
+                <div class="caption">
+                    <img src="img/contact.svg"/>
+                    <hr />
+                    <h3 data-localize="home.s4.p2"> Dónde estamos </h3>
+                    <h3 data-localize="home.s4.p1"> Contáctenos </h3>
+                    <h3 data-localize="home.s4.p3"> Ubicación </h3>
+                    <h3 data-localize="home.s4.p4"> Redes sociales </h3>
+                </div>
+            </div> </a>
+        <br />
+    </article>
+    <!--    <article class="col-md-6 col-lg-6">
+            <a href="../contacto.php" data-theme="e" data-role="button" data-transition="slide">
+                <div class="ui-bar-a">
+                    <h2 data-localize="home.s4.h" class="yellowH">CONTACTO</h2>
+                    <div class="caption">
+                        <img src="img/web_areas/contact.svg"/>
+                        <hr />
+                        <h3 data-localize="home.s4.p2"> Dónde estamos </h3>
+                        <h3 data-localize="home.s4.p1"> Contáctenos </h3>
+                        <h3 data-localize="home.s4.p3"> Ubicación </h3>
+                        <h3 data-localize="home.s4.p4"> Redes sociales </h3>
+                    </div>
+                </div> </a>
+            <br />
+        </article>-->
+</section>
+
+</div>
+<div data-role="footer" class="ui-content" data-theme="a">
+    <div data-role="footer" class="ui-content" data-theme="a">
+        kjilhkjh
+    </div>
+</div>
+        </div>
+    </body>
+</html>

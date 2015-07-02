@@ -11,22 +11,24 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="js/vendor/jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.css" />
         <link rel="stylesheet" href="css/themes/jquery.mobile.icons.min.css" />
-        <link rel="stylesheet" href="js/vendor/jquery.mobile-1.4.2/jquery.mobile.structure-1.4.2.css" />
+        <link rel="stylesheet" href="js/vendor/jquery.mobile-1.4.5/jquery.mobile.structure-1.4.5.css" />
         <!--/Modernize & JQmobile styles-->
-        
+
         <!--JS plugins-->        
-        <script type = "text/javascript" src = "js/vendor/jquery-1.11.0.min.js"></script>
-        <script type="text/javascript" src="js/vendor/jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.js"></script>
+        <script type = "text/javascript" src = "js/vendor/jquery-2.1.1.js"></script>
+        <script src="js/plugins.js"></script>
+        <script src="js/main.js"></script>
         <script src="js/vendor/modernizr-2.8.0.min.js"></script>
         <script type="text/javascript" src="js/vendor/jquery.localize.js"></script>        
+        <script type="text/javascript" src="js/vendor/jquery.mobile-1.4.5/jquery.mobile-1.4.5.min.js"></script>
         <!--/JS plugins-->
 
         <!--Personalized styles & scripts-->
         <script src="js/plugins.js"></script>
         <script src="js/main.js"></script>
-        <link rel="stylesheet" href="css/themes/themes.css" />
+        <link rel="stylesheet" href="css/themes/themes.css" >
         <link rel="stylesheet" href="css/main.css">
-        <!--<link rel="stylesheet" href="css/home.css">-->
+        <link rel="stylesheet" href="css/company.css">
 
 
         <!--Latest compiled and minified CSS--> 
@@ -35,19 +37,23 @@
         <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
         <!--Latest compiled and minified JavaScript--> 
         <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
     </head>    
     <body>
-        <div data-role="page" data-theme = "a">
-
-            <header data-role="header" class="ui-content" data-theme="a">
-                <?php include ('./html/header.html'); ?>
-            </header>
-            <div role="main" class="ui-content" data-theme="a">                
-                <?php include('./html/company.html'); ?>
+        <script src="js/main.js"></script>
+        
+        <div data-role="page" data-theme = "c">
+            <div data-role="header" class="ui-content" data-theme="d" id="company">
+                <header  class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    <?php require ('html/header.html'); ?>
+                </header>              
             </div>
-            <footer data-role="footer" class="ui-content" data-theme="a">
-                <?php include('./html/footer.html'); ?>                
-            </footer>
+            <div role="main" class="ui-content" data-theme="c">                
+                <?php require('html/company.html'); ?>
+            </div>
+            <div data-role="footer" class="ui-content" data-theme="c">
+                <?php require('html/footer.html'); ?>                
+            </div>
         </div>    
     </body>
 

@@ -51,13 +51,16 @@
         "closeB": "Tancar"
     },
     "company": {
+        "h": "LA EMPRESA"
     },
     "services": {
+        "h": "ELS NOSTRES SERVEIS"
     },
     "areas": {
+        "h": "SECTORS D'ACTUACIÓ"
     },
     "contact": {
-        "header": "Contacte"
+        "h": "DADES DE CONTACTE"
     }
 
 }

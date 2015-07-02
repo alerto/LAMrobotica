@@ -1,20 +1,20 @@
 
 .caption  {	
-	letter-spacing: 0.1em !important;
-        /*color: #ffffff !important;*/	
+    letter-spacing: 0.1em !important;
+    /*color: #ffffff !important;*/	
 }
 
 .caption img {
-	width: 20%;
-	height: 20%;
-	opacity: 0.9;
+    width: 20%;
+    height: 20%;
+    opacity: 0.9;
 }
 
 /*.youtube-player{
-	display: none !important;
+        display: none !important;
 }*/
 
-/*nav a{
-    display: none !important;
-    }
-    */
+nav a{
+    /*display: none !important;*/
+}
+

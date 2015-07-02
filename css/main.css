@@ -26,9 +26,9 @@
 html {
 }
 
-.ui-page{    
-    background-image: url("../img/cardboard-flat.png");
-    //  background-color: #b3d4fc;
+.ui-page{        
+    /*background-image: url("img/cardboard-flat.png") !important;*/
+    /*background-color: #b3d4fc;*/
 }
 
 .lam {

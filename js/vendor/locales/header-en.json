@@ -51,13 +51,16 @@
         "closeB": "Close"
     },
     "company": {
+        "h": "LA EMPRESA"
     },
     "services": {
+        "h": "NUESTROS SERVICIOS"
     },
     "areas": {
+        "h": "SECTOERS DE ACTUACIÓN"
     },
     "contact": {
-        "header": "Contact"
+        "h": "DATOS DE CONTACTO"
     }
 
 }
