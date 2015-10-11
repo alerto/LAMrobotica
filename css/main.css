@@ -16,7 +16,7 @@
     src: url(../fonts/wolfsansregular.otf) format("opentype") !important;
 }
 *{
-    font-family: "Century Gothic" !important;
+    font-family: "wolf" !important;
     color: #222;
     font-size: 1em;
     /*line-height: 1.4;*/
